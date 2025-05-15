@@ -45,7 +45,7 @@ Analyse de l'utilisation en 2013 et 2017
 Analyse de la variation de l'utilisation des céréales pour l'alimentation humaine et les animaux (en 2013 et 2017)
 
 #### Etude sur l'utilisation du manioc en Thaïlande :
--> On relève en 2017 que 83 % de la production de manioc est exporté
+On relève en 2017 que 83 % de la production de manioc est exporté
 
 #### Focus sur Haïti
 Dans le cadre de mon analyse sur l'alimentation et la sous-nutrition à l'échelle mondiale, j'ai constaté qu'Haïti présente le taux de sous-nutrition le plus élevé, touchant plus de 48 % de sa population. Cette analyse complémentaire a été motivée par le besoin de mettre en corrélation plusieurs insights afin de mieux comprendre la situation alimentaire dans le pays.
