@@ -1,18 +1,32 @@
-# L'alimentation dans le monde
-🍽️🌍🕵️‍♀️
+# 🍽️ L'alimentation dans le monde🌍
+
 
 Projet Open class Room (1ere utilisation de Python)
 
-## Contexte
+## 📝 Contexte 
 Réaliser une étude de grande ampleur sur l'alimentation mondiale plus particulièrement la sous nutrition mondiale de 2013 à 2017 pour la FAO.
 C'est un des organes qui composent L'ONU et dont l'objectif est "d'aider à construire un monde libéré de la faim".
+## 📈 Aperçu visuel 
+![sous-nut](https://github.com/user-attachments/assets/d5f33670-a056-4d67-aa2c-6ba5858363da)
 
-### Pré-requis
-
-
+## Pré-requis
 - Python
 - Notebook Jupyter
 - Canva ou PPT
+  
+## 🎯 Objectif
+Explorer et analyser des données en utilisant des langages et outils métiers qui permettent:
+- La prise de decision future par la connaissance historique des évenements
+- La transmission a un plus large public par la vulgarisation des données
+  
+## 🧠 Compétences développées
+* Nettoyage des data sur Excel et Query
+* Préparation des data pour l'analyse
+* Python et Notebook Jupyter
+* Anaconda
+* Canva
+  
+## 🕵️‍♀️ Quelques point d'analyse 
 
 #### Etude de la sous-nutrition :
 Analyse de la sous-nutrition mondiale.
@@ -27,7 +41,6 @@ En % de la population du pays
 
 Analyse de la disponibilité alimentaire totale (en % de la population mondiale).
 Analyse de la disponibilité alimentaire d'origine végétale (en % de la population mondiale).
-
 
 #### Analyse de l'utilisation de la disponibilité intérieure.
 
@@ -52,7 +65,7 @@ Dans le cadre de mon analyse sur l'alimentation et la sous-nutrition à l'échel
 Il convient de noter que toutes mes données proviennent de la FAOSTAT, l'outil de la FAO sur les statistiques alimentaires et agricoles.
 
 
-## Auteurs
+## 👩‍💻 Auteurs
 
 * **Maryline IANNOTTA** _alias_ [@Maia-iant]((https://github.com/Maia-iant))
 
