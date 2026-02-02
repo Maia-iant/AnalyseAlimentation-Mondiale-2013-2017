@@ -86,7 +86,17 @@ Vulgarisation des résultats pour un public non technique via un support visuel 
 
 ---
 
+## 📊 Aperçu visuel
+
+
+![alim monde](https://github.com/user-attachments/assets/adcbdf82-b895-48cf-9297-b9fde34ea26c)
+![alim monde 2](https://github.com/user-attachments/assets/36fae76d-fe6d-4531-ad7e-2d84b67b21dd)
+![alim monde 3 ](https://github.com/user-attachments/assets/a4c60204-86d1-4f3a-8f72-af69339c59cb)
+![alim monde 4](https://github.com/user-attachments/assets/e0cbe93f-9ba9-486c-ae74-79360f92ba47)
+
+
 👩‍💻 Auteur
+
 Maryline IANNOTTA – @Maia-iant
 
 
