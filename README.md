@@ -1,73 +1,83 @@
-# 🍽️ L'alimentation dans le monde🌍
+🍽️ L’alimentation dans le monde 🌍
+Projet OpenClassrooms – première utilisation de Python pour analyser la sous‑nutrition mondiale entre 2013 et 2017 à partir des données de la FAO.
+
+🎯 Problème métier
+La FAO souhaite mieux comprendre l’évolution de la sous‑nutrition dans le monde afin de cibler ses actions et ses aides alimentaires sur les pays et régions les plus vulnérables.
+La question centrale est : quels pays et quelles régions concentrent le plus de sous‑nutrition, comment cela évolue dans le temps, et comment les disponibilités alimentaires et l’aide internationale se répartissent‑elles ?
+
+🗂️ Données utilisées
+Données FAOSTAT sur la sous‑nutrition par pays et par année (2013–2017).
+
+Données sur la disponibilité alimentaire (totale, végétale, céréales, manioc) par pays.
+
+Données sur l’aide alimentaire reçue par pays et par région (2013–2016).
+
+🛠️ Outils et environnement
+Python (pandas, matplotlib/seaborn) dans un notebook Jupyter.
+
+Excel et Power Query pour un premier nettoyage des fichiers bruts.
+
+Canva / PowerPoint pour la présentation des résultats.
+
+🔧 Méthodologie (étapes)
+Préparation des données : nettoyage des fichiers FAOSTAT, harmonisation des noms de pays, filtrage de la période 2013–2017, création d’indicateurs dérivés (taux de sous‑nutrition, disponibilités par habitant, etc.).
+
+Analyses exploratoires :
+
+Étude de la sous‑nutrition mondiale et par région.
+
+Identification des pays les plus touchés (en part de la population sous‑nutrie et en contribution à la sous‑nutrition mondiale).
+
+Analyses thématiques :
+
+Analyse de la disponibilité alimentaire totale et végétale (niveau mondial et par pays).
+
+Analyse de l’utilisation de la disponibilité intérieure (alimentation humaine, animale, autres usages).
+
+Focus sur l’aide alimentaire (top 10 des pays bénéficiaires, répartition par région).
+
+Étude ciblée sur l’utilisation des céréales (2013 vs 2017) et du manioc en Thaïlande.
+
+Focus pays : zoom sur Haïti avec mise en perspective du taux de sous‑nutrition et des disponibilités alimentaires.
+
+Visualisation et restitution : création de graphiques et cartes pour vulgariser les résultats auprès d’un public non technique.
+
+📈 Principaux résultats et insights
+Mise en évidence des régions les plus touchées par la sous‑nutrition sur la période étudiée et de leur évolution.
+
+Identification d’un groupe de pays concentrant une part très élevée de la sous‑nutrition mondiale, avec des taux supérieurs à X % de la population (ex. Haïti > 48%).
+
+Mise en lumière de décalages entre disponibilité alimentaire et sous‑nutrition : certains pays disposent de ressources alimentaires suffisantes mais présentent encore des taux élevés de sous‑nutrition, ce qui suggère des problèmes de distribution ou d’inégalités.
+
+Analyse de l’aide alimentaire montrant qu’une partie importante de l’aide se concentre sur un nombre limité de pays, et que la répartition par région ne suit pas toujours parfaitement la gravité de la sous‑nutrition.
+
+Cas particulier : en Thaïlande, près de 83% de la production de manioc est exportée, ce qui illustre la tension entre débouchés économiques et sécurité alimentaire locale.
+
+(Tu peux ici ajouter 2–3 chiffres précis ou graphiques clés tirés de ton notebook.)
+
+🧩 Impact et recommandations
+Ce travail permet de prioriser les pays et régions à cibler pour les programmes de lutte contre la faim.
+
+Il met en avant l’importance de croiser disponibilité alimentaire, sous‑nutrition et flux d’aide pour comprendre les causes structurelles plutôt que de se limiter aux totaux mondiaux.
+
+Une extension possible serait d’intégrer des données socio‑économiques (PIB, conflits, catastrophes naturelles) pour affiner les recommandations d’allocation d’aide.
+
+🧠 Compétences développées
+Nettoyage et préparation de données multi‑sources (Excel, Power Query, Python).
+
+Analyse exploratoire avec pandas et visualisations dans un notebook Jupyter.
+
+Structuration d’une étude de cas data (problème métier → analyses → insights → recommandations).
+
+Vulgarisation des résultats pour un public non technique via un support visuel (Canva / PPT).
+
+📊 Aperçu visuel
 
 
-Projet Open class Room (1ere utilisation de Python)
-
-## 📝 Contexte 
-Réaliser une étude de grande ampleur sur l'alimentation mondiale plus particulièrement la sous nutrition mondiale de 2013 à 2017 pour la FAO.
-C'est un des organes qui composent L'ONU et dont l'objectif est "d'aider à construire un monde libéré de la faim".
-## 📈 Aperçu visuel 
-![sous-nut](https://github.com/user-attachments/assets/d5f33670-a056-4d67-aa2c-6ba5858363da)
-
-## Pré-requis
-- Python
-- Notebook Jupyter
-- Canva ou PPT
-  
-## 🎯 Objectif
-Explorer et analyser des données en utilisant des langages et outils métiers qui permettent:
-- La prise de decision future par la connaissance historique des évenements
-- La transmission a un plus large public par la vulgarisation des données
-  
-## 🧠 Compétences développées
-* Nettoyage des data sur Excel et Query
-* Préparation des data pour l'analyse
-* Python et Notebook Jupyter
-* Anaconda
-* Canva
-  
-## 🕵️‍♀️ Quelques point d'analyse 
-
-#### Etude de la sous-nutrition :
-Analyse de la sous-nutrition mondiale.
-Analyse de la sous-nutrition par région.
-
-#### Analyse des pays où la sous-nutrition est la plus forte :
-En % de la sous-nutrition mondiale
-En % de la population du pays
-
-#### Etude de la disponibilité :
-(Réalisé sur 2017)
-
-Analyse de la disponibilité alimentaire totale (en % de la population mondiale).
-Analyse de la disponibilité alimentaire d'origine végétale (en % de la population mondiale).
-
-#### Analyse de l'utilisation de la disponibilité intérieure.
-
-Analyse de la disponibilité par habitant :
-Top 5 des pays où la disponibilité est la plus faible et la plus forte (par rapport à la disponibilité intérieure).
-Top 5 des pays où la disponibilité est la plus faible et la plus forte (par rapport à la disponibilité alimentaire).
-
-#### Etude de l'aide alimentaire :
-(Réalisé de 2013 à 2016)
-Analyse du top 10 des pays ayant reçus le plus d'aide depuis 2013 (en quantité/millions de tonnes et en % de l'aide totale distribuée).
-Analyse de la répartition de l'aide distribuée par régions du monde.
-
-#### Etude de l'utilisation de céréales :
-Analyse de l'utilisation en 2013 et 2017
-Analyse de la variation de l'utilisation des céréales pour l'alimentation humaine et les animaux (en 2013 et 2017)
-
-#### Etude sur l'utilisation du manioc en Thaïlande :
-On relève en 2017 que 83 % de la production de manioc est exporté
-
-#### Focus sur Haïti
-Dans le cadre de mon analyse sur l'alimentation et la sous-nutrition à l'échelle mondiale, j'ai constaté qu'Haïti présente le taux de sous-nutrition le plus élevé, touchant plus de 48 % de sa population. Cette analyse complémentaire a été motivée par le besoin de mettre en corrélation plusieurs insights afin de mieux comprendre la situation alimentaire dans le pays.
-Il convient de noter que toutes mes données proviennent de la FAOSTAT, l'outil de la FAO sur les statistiques alimentaires et agricoles.
+👩‍💻 Auteur
+Maryline IANNOTTA – @Maia-iant
 
 
-## 👩‍💻 Auteurs
-
-* **Maryline IANNOTTA** _alias_ [@Maia-iant]((https://github.com/Maia-iant))
 
 
 
